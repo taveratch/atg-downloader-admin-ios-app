@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80582CE61B27D5E0D57C7683 /* Pods_PSE_ATG_Admin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F62061893BC1C6CC93B6DCD /* Pods_PSE_ATG_Admin.framework */; };
+		957D940F2047FB640089B809 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D940E2047FB640089B809 /* UsersViewController.swift */; };
+		957D941320483BBF0089B809 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D941220483BBF0089B809 /* User.swift */; };
+		957D941620483CD10089B809 /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D941520483CD10089B809 /* UsersTableViewCell.swift */; };
+		957D941920484F8B0089B809 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D941820484F8B0089B809 /* UserViewController.swift */; };
+		957D941B204984270089B809 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D941A204984270089B809 /* Api.swift */; };
 		959C409A2047BEA100A537F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C40992047BEA100A537F3 /* AppDelegate.swift */; };
-		959C409C2047BEA100A537F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C409B2047BEA100A537F3 /* ViewController.swift */; };
+		959C409C2047BEA100A537F3 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C409B2047BEA100A537F3 /* SigninViewController.swift */; };
 		959C409F2047BEA100A537F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959C409D2047BEA100A537F3 /* Main.storyboard */; };
 		959C40A12047BEA100A537F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959C40A02047BEA100A537F3 /* Assets.xcassets */; };
 		959C40A42047BEA100A537F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959C40A22047BEA100A537F3 /* LaunchScreen.storyboard */; };
+		959C40AC2047CCDF00A537F3 /* RoundBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C40AB2047CCDF00A537F3 /* RoundBorderButton.swift */; };
+		959C40AF2047D03700A537F3 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C40AE2047D03700A537F3 /* ApiManager.swift */; };
+		959C40B12047D76C00A537F3 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C40B02047D76C00A537F3 /* DashboardViewController.swift */; };
+		959C40B32047E84C00A537F3 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C40B22047E84C00A537F3 /* UserController.swift */; };
+		959C40B52047F03A00A537F3 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C40B42047F03A00A537F3 /* SideMenuTableViewCell.swift */; };
+		959C40B72047F04E00A537F3 /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C40B62047F04E00A537F3 /* SideMenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EB267F103133D2615E6BDFA /* Pods-PSE ATG Admin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSE ATG Admin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSE ATG Admin/Pods-PSE ATG Admin.debug.xcconfig"; sourceTree = "<group>"; };
+		4F62061893BC1C6CC93B6DCD /* Pods_PSE_ATG_Admin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSE_ATG_Admin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67AA582799BD2C98D3AB063C /* Pods-PSE ATG Admin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSE ATG Admin.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSE ATG Admin/Pods-PSE ATG Admin.release.xcconfig"; sourceTree = "<group>"; };
+		957D940E2047FB640089B809 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		957D941220483BBF0089B809 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		957D941520483CD10089B809 /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
+		957D941820484F8B0089B809 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		957D941A204984270089B809 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		959C40962047BEA100A537F3 /* PSE ATG Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PSE ATG Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		959C40992047BEA100A537F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		959C409B2047BEA100A537F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		959C409B2047BEA100A537F3 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		959C409E2047BEA100A537F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		959C40A02047BEA100A537F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		959C40A32047BEA100A537F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		959C40A52047BEA100A537F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959C40AB2047CCDF00A537F3 /* RoundBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBorderButton.swift; sourceTree = "<group>"; };
+		959C40AE2047D03700A537F3 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		959C40B02047D76C00A537F3 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		959C40B22047E84C00A537F3 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		959C40B42047F03A00A537F3 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		959C40B62047F04E00A537F3 /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80582CE61B27D5E0D57C7683 /* Pods_PSE_ATG_Admin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		726B732EE9E18C4DD6F8BA57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EB267F103133D2615E6BDFA /* Pods-PSE ATG Admin.debug.xcconfig */,
+				67AA582799BD2C98D3AB063C /* Pods-PSE ATG Admin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		957D941420483CC20089B809 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				957D940E2047FB640089B809 /* UsersViewController.swift */,
+				957D941520483CD10089B809 /* UsersTableViewCell.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		957D941720484F730089B809 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				957D941820484F8B0089B809 /* UserViewController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 		959C408D2047BEA100A537F3 = {
 			isa = PBXGroup;
 			children = (
 				959C40982047BEA100A537F3 /* PSE ATG Admin */,
 				959C40972047BEA100A537F3 /* Products */,
+				726B732EE9E18C4DD6F8BA57 /* Pods */,
+				FAE02F5994DB12BA2C8AAFC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +109,40 @@
 		959C40982047BEA100A537F3 /* PSE ATG Admin */ = {
 			isa = PBXGroup;
 			children = (
+				957D941720484F730089B809 /* User */,
+				957D941420483CC20089B809 /* Users */,
+				959C40AD2047D02900A537F3 /* Utilities */,
 				959C40992047BEA100A537F3 /* AppDelegate.swift */,
-				959C409B2047BEA100A537F3 /* ViewController.swift */,
+				959C409B2047BEA100A537F3 /* SigninViewController.swift */,
+				959C40B02047D76C00A537F3 /* DashboardViewController.swift */,
+				959C40AB2047CCDF00A537F3 /* RoundBorderButton.swift */,
+				959C40B22047E84C00A537F3 /* UserController.swift */,
+				959C40B42047F03A00A537F3 /* SideMenuTableViewCell.swift */,
+				957D941220483BBF0089B809 /* User.swift */,
+				959C40B62047F04E00A537F3 /* SideMenuTableViewController.swift */,
 				959C409D2047BEA100A537F3 /* Main.storyboard */,
 				959C40A02047BEA100A537F3 /* Assets.xcassets */,
 				959C40A22047BEA100A537F3 /* LaunchScreen.storyboard */,
 				959C40A52047BEA100A537F3 /* Info.plist */,
 			);
 			path = "PSE ATG Admin";
+			sourceTree = "<group>";
+		};
+		959C40AD2047D02900A537F3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				959C40AE2047D03700A537F3 /* ApiManager.swift */,
+				957D941A204984270089B809 /* Api.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FAE02F5994DB12BA2C8AAFC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F62061893BC1C6CC93B6DCD /* Pods_PSE_ATG_Admin.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 959C40A82047BEA100A537F3 /* Build configuration list for PBXNativeTarget "PSE ATG Admin" */;
 			buildPhases = (
+				EA424A49CFBA6AC9FACEB746 /* [CP] Check Pods Manifest.lock */,
 				959C40922047BEA100A537F3 /* Sources */,
 				959C40932047BEA100A537F3 /* Frameworks */,
 				959C40942047BEA100A537F3 /* Resources */,
+				6DE10E5D55B3CC94A05C6FE0 /* [CP] Embed Pods Frameworks */,
+				EB429D6E9E1D73077D324508 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +215,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6DE10E5D55B3CC94A05C6FE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PSE ATG Admin/Pods-PSE ATG Admin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PSE ATG Admin/Pods-PSE ATG Admin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA424A49CFBA6AC9FACEB746 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PSE ATG Admin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB429D6E9E1D73077D324508 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PSE ATG Admin/Pods-PSE ATG Admin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		959C40922047BEA100A537F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				959C409C2047BEA100A537F3 /* ViewController.swift in Sources */,
+				959C40AF2047D03700A537F3 /* ApiManager.swift in Sources */,
+				957D941920484F8B0089B809 /* UserViewController.swift in Sources */,
+				959C409C2047BEA100A537F3 /* SigninViewController.swift in Sources */,
+				959C40B32047E84C00A537F3 /* UserController.swift in Sources */,
+				959C40B12047D76C00A537F3 /* DashboardViewController.swift in Sources */,
+				959C40B52047F03A00A537F3 /* SideMenuTableViewCell.swift in Sources */,
+				957D941B204984270089B809 /* Api.swift in Sources */,
+				959C40AC2047CCDF00A537F3 /* RoundBorderButton.swift in Sources */,
 				959C409A2047BEA100A537F3 /* AppDelegate.swift in Sources */,
+				957D940F2047FB640089B809 /* UsersViewController.swift in Sources */,
+				957D941320483BBF0089B809 /* User.swift in Sources */,
+				959C40B72047F04E00A537F3 /* SideMenuTableViewController.swift in Sources */,
+				957D941620483CD10089B809 /* UsersTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +423,7 @@
 		};
 		959C40A92047BEA100A537F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB267F103133D2615E6BDFA /* Pods-PSE ATG Admin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +439,7 @@
 		};
 		959C40AA2047BEA100A537F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67AA582799BD2C98D3AB063C /* Pods-PSE ATG Admin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
