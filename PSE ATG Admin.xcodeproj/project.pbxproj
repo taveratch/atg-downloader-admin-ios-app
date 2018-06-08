@@ -13,6 +13,7 @@
 		957D941620483CD10089B809 /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D941520483CD10089B809 /* UsersTableViewCell.swift */; };
 		957D941920484F8B0089B809 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D941820484F8B0089B809 /* UserViewController.swift */; };
 		957D941B204984270089B809 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D941A204984270089B809 /* Api.swift */; };
+		957D941E204A92CA0089B809 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D941D204A92CA0089B809 /* Card.swift */; };
 		959C409A2047BEA100A537F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C40992047BEA100A537F3 /* AppDelegate.swift */; };
 		959C409C2047BEA100A537F3 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C409B2047BEA100A537F3 /* SigninViewController.swift */; };
 		959C409F2047BEA100A537F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959C409D2047BEA100A537F3 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		957D941520483CD10089B809 /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
 		957D941820484F8B0089B809 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		957D941A204984270089B809 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		957D941D204A92CA0089B809 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		959C40962047BEA100A537F3 /* PSE ATG Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PSE ATG Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		959C40992047BEA100A537F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		959C409B2047BEA100A537F3 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,15 @@
 			path = User;
 			sourceTree = "<group>";
 		};
+		957D941C204A92B60089B809 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				959C40AB2047CCDF00A537F3 /* RoundBorderButton.swift */,
+				957D941D204A92CA0089B809 /* Card.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		959C408D2047BEA100A537F3 = {
 			isa = PBXGroup;
 			children = (
@@ -109,13 +120,13 @@
 		959C40982047BEA100A537F3 /* PSE ATG Admin */ = {
 			isa = PBXGroup;
 			children = (
+				957D941C204A92B60089B809 /* Components */,
 				957D941720484F730089B809 /* User */,
 				957D941420483CC20089B809 /* Users */,
 				959C40AD2047D02900A537F3 /* Utilities */,
 				959C40992047BEA100A537F3 /* AppDelegate.swift */,
 				959C409B2047BEA100A537F3 /* SigninViewController.swift */,
 				959C40B02047D76C00A537F3 /* DashboardViewController.swift */,
-				959C40AB2047CCDF00A537F3 /* RoundBorderButton.swift */,
 				959C40B22047E84C00A537F3 /* UserController.swift */,
 				959C40B42047F03A00A537F3 /* SideMenuTableViewCell.swift */,
 				957D941220483BBF0089B809 /* User.swift */,
@@ -285,6 +296,7 @@
 				957D941B204984270089B809 /* Api.swift in Sources */,
 				959C40AC2047CCDF00A537F3 /* RoundBorderButton.swift in Sources */,
 				959C409A2047BEA100A537F3 /* AppDelegate.swift in Sources */,
+				957D941E204A92CA0089B809 /* Card.swift in Sources */,
 				957D940F2047FB640089B809 /* UsersViewController.swift in Sources */,
 				957D941320483BBF0089B809 /* User.swift in Sources */,
 				959C40B72047F04E00A537F3 /* SideMenuTableViewController.swift in Sources */,

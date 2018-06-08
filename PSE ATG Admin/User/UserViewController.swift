@@ -14,7 +14,6 @@ class UserViewController: UIViewController {
     let api = Api()
     
     @IBOutlet weak var activateButton: RoundBorderButton!
-    @IBOutlet weak var uiView: UIView!
     @IBOutlet weak var activeLabel: UILabel!
     @IBOutlet weak var verifiedLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
@@ -38,14 +37,6 @@ class UserViewController: UIViewController {
     }
     
     private func setupUI() {
-        // uiview
-        uiView.layer.masksToBounds = false
-        uiView.layer.cornerRadius = 5
-        uiView.layer.shadowColor = #colorLiteral(red: 0.8711046614, green: 0.8773157559, blue: 0.8959490395, alpha: 1)
-        uiView.layer.shadowOffset = CGSize(width: 1, height: 1)
-        uiView.layer.shadowOpacity = 0.7
-        uiView.layer.shadowRadius = 3
-        
         if (user != nil) {
             nameLabel.text = user!.name
             phoneLabel.text = user!.tel
